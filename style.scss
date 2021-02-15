@@ -1,0 +1,11 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #172F53;
+}
+
+// components
+@import 'src/scss/components/logo';
+@import 'src/scss/components/button';
+
+// partials
+@import 'src/scss/partials/header';

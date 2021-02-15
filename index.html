@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>html boilerplate</title>
-  </head>
-  <body>
-    <h1>w3x</h1>
-    <script type="module" src="/main.js"></script>
-  </body>
+</head>
+<body>
+<div style="display: none">
+    <svg viewBox="0 0 61 50" id="logo" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="18.4744" y="46.7246" width="48.1005" height="8.25784" rx="4.12892"
+              transform="rotate(-72.6624 18.4744 46.7246)" fill="#53EDD1"/>
+        <rect x="4.81521" y="17.394" width="36.885" height="8.25784" rx="4.12892"
+              transform="rotate(-28.1364 4.81521 17.394)" fill="#FF0076"/>
+        <rect y="36.7335" width="64.0378" height="8.25784" rx="4.12892" transform="rotate(-28.1364 0 36.7335)"
+              fill="#4969F8"/>
+        <rect x="18.0278" y="42.718" width="36.885" height="8.25784" rx="4.12892"
+              transform="rotate(-28.1364 18.0278 42.718)" fill="#FFCF4F"/>
+    </svg>
+</div>
+
+<div class="wrapper">
+    <header>
+        <div class="container mx-auto">
+            <div class="header">
+                <div class="logo">
+                    <svg class="logo__svg">
+                        <use href="#logo"></use>
+                    </svg>
+                    <span class="logo__title">Zendit</span>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <a href="#" class="navigation__link">Shipping</a>
+                        <a href="#" class="navigation__link">Tracking</a>
+                        <a href="#" class="navigation__link">Support</a>
+                        <a href="#" class="navigation__link">Account</a>
+                    </nav>
+                </div>
+                <div class="header__actions">
+                    <a href="#">Sign In</a>
+                    <button class="button button__light">Register</button>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<script type="module" src="/main.js"></script>
+</body>
 </html>
