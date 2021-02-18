@@ -14,12 +14,42 @@
   }
 }
 
-.button.button__light {
+.button.button_outline {
   border: 1px solid #000;
   border-radius: 5px;
   padding: 10px 26px;
 
   &:hover {
     color: #000;
+  }
+}
+
+.button.button_primary {
+  background-color: #21D8E3;
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+
+  @media (max-width: 1400px) {
+    font-size: 22px;
+    padding: 26px;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    padding: 18px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
   }
 }

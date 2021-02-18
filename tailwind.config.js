@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     container: {
-      padding: '10px'
+      padding: '20px'
     },
     screens: {
       '3xl': '1635px'
