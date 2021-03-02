@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #172F53;
+  background-color: #fff;
 }
 
 // typography
@@ -38,6 +39,32 @@ body {
   }
 }
 
+.title-2 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.5;
+
+  @media (max-width: 1440px) {
+    font-size: 46px;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 30px;
+  }
+}
+
 .title-3 {
   font-size: 36px;
   line-height: 1.5;
@@ -57,6 +84,17 @@ body {
 
   @media (max-width: 480px) {
     font-size: 20px;
+  }
+
+}
+
+.title-4 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.4;
+
+  @media (max-width: 1440px) {
+    font-size: 26px;
   }
 }
 
@@ -88,11 +126,14 @@ body {
 
 
 // components
+@import 'src/scss/components/section';
 @import 'src/scss/components/logo';
 @import 'src/scss/components/button';
 @import 'src/scss/components/input';
 @import 'src/scss/components/track';
+@import 'src/scss/components/feature';
 
 // partials
 @import 'src/scss/partials/header';
 @import 'src/scss/partials/home';
+@import 'src/scss/partials/offer';
