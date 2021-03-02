@@ -4,6 +4,14 @@
   padding: 10px;
   border-radius: 4px;
 
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+  }
+
   @media (max-width: 1400px) {
     font-size: 16px;
   }
@@ -33,6 +41,11 @@
   width: 100%;
   border: none;
   border-radius: 10px;
+  transition: 300ms ease;
+
+  &:hover {
+    background-color: #36f4ff;
+  }
 
   @media (max-width: 1400px) {
     font-size: 22px;
@@ -51,5 +64,30 @@
 
   @media (max-width: 768px) {
     font-size: 14px;
+  }
+}
+
+.button_icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: 20px;
+    fill: #fff;
+
+    @media (max-width: 768px) {
+      width: 18px;
+      height: 18px;
+    }
+
+    @media (max-width: 480px) {
+      width: 14px;
+      height: 14px;
+      margin-left: 10px;
+    }
   }
 }
