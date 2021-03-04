@@ -4,10 +4,6 @@ header {
   left: 0px;
   width: 100%;
   z-index: 99;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
 }
 
 .header {
@@ -15,6 +11,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 
   .logo {
     flex-grow: 2;
@@ -70,5 +70,14 @@ header {
     &:last-child {
       margin-right: 0px;
     }
+  }
+}
+
+.mobile-header {
+  display: none;
+  padding: 34px 0;
+
+  @media (max-width: 768px) {
+    display: flex;
   }
 }
