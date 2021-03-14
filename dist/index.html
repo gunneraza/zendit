@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>html boilerplate</title>
+<script type="module" crossorigin src="/assets/index.d0541ef7.js"></script>
+  <link rel="stylesheet" href="/assets/index.aa0f5296.css">
+</head>
+<body>
+<div style="display: none">
+    <svg viewBox="0 0 61 50" id="logo" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="18.4744" y="46.7246" width="48.1005" height="8.25784" rx="4.12892"
+              transform="rotate(-72.6624 18.4744 46.7246)" fill="#53EDD1"/>
+        <rect x="4.81521" y="17.394" width="36.885" height="8.25784" rx="4.12892"
+              transform="rotate(-28.1364 4.81521 17.394)" fill="#FF0076"/>
+        <rect y="36.7335" width="64.0378" height="8.25784" rx="4.12892" transform="rotate(-28.1364 0 36.7335)"
+              fill="#4969F8"/>
+        <rect x="18.0278" y="42.718" width="36.885" height="8.25784" rx="4.12892"
+              transform="rotate(-28.1364 18.0278 42.718)" fill="#FFCF4F"/>
+    </svg>
+
+    <svg viewBox="0 0 48 48" id="gift" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M41.6 24V44C41.6 45.1046 40.7046 46 39.6 46H8.4C7.29543 46 6.4 45.1046 6.4 44V24" stroke="#FFCF4F"
+              stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M44 13H4C2.89543 13 2 13.8954 2 15V22C2 23.1046 2.89543 24 4 24H44C45.1046 24 46 23.1046 46 22V15C46 13.8954 45.1046 13 44 13Z"
+              stroke="#FFCF4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24 46V13" stroke="#FFCF4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M23.3294 10.6599C23.7444 11.8518 22.8225 13 21.5604 13H14.1C12.6413 13 11.2424 12.4205 10.2109 11.3891C9.17946 10.3576 8.6 8.95869 8.6 7.5C8.6 6.04131 9.17946 4.64236 10.2109 3.61091C11.2424 2.57946 12.6413 2 14.1 2C19.51 2 22.2049 7.43002 23.3294 10.6599Z"
+              stroke="#FFCF4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24.6706 10.6599C24.2556 11.8518 25.1775 13 26.4396 13H33.9C35.3587 13 36.7576 12.4205 37.7891 11.3891C38.8205 10.3576 39.4 8.95869 39.4 7.5C39.4 6.04131 38.8205 4.64236 37.7891 3.61091C36.7576 2.57946 35.3587 2 33.9 2C28.49 2 25.7951 7.43002 24.6706 10.6599Z"
+              stroke="#FFCF4F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+
+    <svg id="monitor" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 30H6C4.93913 30 3.92172 29.5786 3.17157 28.8284C2.42143 28.0783 2 27.0609 2 26V6C2 4.93913 2.42143 3.92172 3.17157 3.17157C3.92172 2.42143 4.93913 2 6 2H38C39.0609 2 40.0783 2.42143 40.8284 3.17157C41.5786 3.92172 42 4.93913 42 6V26C42 27.0609 41.5786 28.0783 40.8284 28.8284C40.0783 29.5786 39.0609 30 38 30H36"
+              stroke="#21D8E3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 26L32 38H12L22 26Z" stroke="#21D8E3" stroke-width="4" stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </svg>
+
+
+    <svg id="target" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 57C44.9117 57 57 44.9117 57 30C57 15.0883 44.9117 3 30 3C15.0883 3 3 15.0883 3 30C3 44.9117 15.0883 57 30 57Z"
+              stroke="#FF0076" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M57 30H46.2" stroke="#FF0076" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13.8 30H3" stroke="#FF0076" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 13.8V3" stroke="#FF0076" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M30 57V46.2" stroke="#FF0076" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+    <svg id="track" viewBox="0 0 60 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M40.2348 2.40906H2.16663V35.4015H40.2348V2.40906Z" stroke="#5F5FFE" stroke-width="4"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M40.2347 15.0985H50.3862L57.9999 22.7121V35.4015H40.2347V15.0985Z" stroke="#5F5FFE" stroke-width="4"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13.5871 48.0908C17.0912 48.0908 19.9318 45.2501 19.9318 41.7461C19.9318 38.242 17.0912 35.4014 13.5871 35.4014C10.083 35.4014 7.24243 38.242 7.24243 41.7461C7.24243 45.2501 10.083 48.0908 13.5871 48.0908Z"
+              stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M46.5794 48.0908C50.0835 48.0908 52.9241 45.2501 52.9241 41.7461C52.9241 38.242 50.0835 35.4014 46.5794 35.4014C43.0754 35.4014 40.2347 38.242 40.2347 41.7461C40.2347 45.2501 43.0754 48.0908 46.5794 48.0908Z"
+              stroke="#5F5FFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+    <svg version="1.1" id="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         x="0px" y="0px"
+         viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+	</g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+        <g>
+</g>
+</svg>
+
+
+</div>
+
+<div class="wrapper">
+    <header>
+        <div class="container mx-auto">
+            <div class="header">
+                <div class="logo">
+                    <svg class="logo__svg">
+                        <use href="#logo"></use>
+                    </svg>
+                    <span class="logo__title">Zendit</span>
+                </div>
+                <div class="navigation">
+                    <nav>
+                        <a href="#" class="navigation__link">Shipping</a>
+                        <a href="#" class="navigation__link">Tracking</a>
+                        <a href="#" class="navigation__link">Support</a>
+                        <a href="#" class="navigation__link">Account</a>
+                    </nav>
+                </div>
+                <div class="header__actions">
+                    <a href="#">Sign In</a>
+                    <button class="button button_outline">Register</button>
+                </div>
+            </div>
+            <div class="mobile-header">
+                <div class="logo">
+                    <svg class="logo__svg">
+                        <use href="#logo"></use>
+                    </svg>
+                    <span class="logo__title">Zendit</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="home">
+        <div class="home__box"></div>
+        <div class="container mx-auto">
+            <div class="home__wrapper">
+                <div class="home__info">
+                    <h1 class="home__title title-1">Sends goods more easily and quickly</h1>
+                    <p class="text-body-1">Send your package with zendit, fast and easy delivery, express your online
+                        business.</p>
+                </div>
+                <div class="home__image" style="background-image: url('/images/home/man.png')">
+                    <div class="home__dot" style="background-image: url('/images/home/dot.png')"></div>
+                    <div class="home__dot-2" style="background-image: url('/images/home/dot2.png')"></div>
+                    <div class="home__icon home__telegram"
+                         style="background-image: url('/images/home/tg.png')"></div>
+                    <div class="home__icon home__search"
+                         style="background-image: url('/images/home/search.png')"></div>
+                    <div class="home__icon home__clock"
+                         style="background-image: url('/images/home/clock.png')"></div>
+                </div>
+                <div class="home__track track">
+                    <div class="track__header">
+                        <h3 class="track__title title-3">Track your packet here</h3>
+                        <div class="track__subtitle">data provided by zendit</div>
+                    </div>
+                    <div class="track__body">
+                        <input type="text" class="track__input input" placeholder="enter the tracking number / receipt">
+                        <div class="track__button">
+                            <button class="button button_primary">Track parcel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-offer">
+        <div class="container mx-auto">
+            <div class="section__header">
+                <div class="text-body-1 section__subtitle">Special Offer</div>
+                <h2 class="title-2">We offer an outstanding service on-time everytime</h2>
+            </div>
+            <div class="section__body">
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature__title">
+                            <h3 class="title-4">Local Heroes</h3>
+                        </div>
+                        <div class="feature__icon">
+                            <svg>
+                                <use href="#gift"></use>
+                            </svg>
+                        </div>
+                        <div class="feature__description">
+                            <p>minumum distance <span>10 miles</span></p>
+                            <p>maximum weight <span>5 pounds</span></p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__title">
+                            <h3 class="title-4">Airplanings</h3>
+                        </div>
+                        <div class="feature__icon">
+                            <svg>
+                                <use href="#monitor"></use>
+                            </svg>
+                        </div>
+                        <div class="feature__description">
+                            <p>minimum distance <span>25 miles</span></p>
+                            <p>maximum weight <span>12 pounds</span></p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__title">
+                            <h3 class="title-4">Speedrunner</h3>
+                        </div>
+                        <div class="feature__icon">
+                            <svg>
+                                <use href="#target"></use>
+                            </svg>
+                        </div>
+                        <div class="feature__description">
+                            <p>minimum distance <span>150 miles</span></p>
+                            <p>maximum weight <span>35 pounds </span></p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__title">
+                            <h3 class="title-4">Local Racers</h3>
+                        </div>
+                        <div class="feature__icon">
+                            <svg>
+                                <use href="#track"></use>
+                            </svg>
+                        </div>
+                        <div class="feature__description">
+                            <p>minimum distance <span>215 miles</span></p>
+                            <p>maximum weight <span>60 pounds</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-discount">
+        <div class="container mx-auto">
+            <div class="discount">
+                <div class="discount__info">
+                    <div class="discount__title">
+                        <h2 class="title-2">Get discounts up to 40% just by registering your account</h2>
+                    </div>
+                    <div class="discount__text">
+                        <p class="text-body-1">Zendit Express Division serves time-sensitive packages and
+                            documents to domestic destinations through more than 1,500
+                            exclusive service points from pick-up to delivery spread across
+                            the country.</p>
+                    </div>
+                    <div class="discount__button">
+                        <button class="button button_primary button_icon">
+                            <span>Create an account now</span>
+                            <svg><use href="#arrow"></use></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="discount__img" style="background-image: url('/images/discount/girl.png')"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-partners">
+        <div class="container mx-auto">
+            <div class="section__header">
+                <div class="text-body-1 section__subtitle">Partnership</div>
+                <h2 class="title-2">trusted by more than 150+big companies</h2>
+            </div>
+            <div class="section__body">
+                <div class="partners">
+                    <div class="partner" style="background-image: url('/images/partners/shope.png')"></div>
+                    <div class="partner" style="background-image: url('/images/partners/blibli.png')"></div>
+                    <div class="partner" style="background-image: url('/images/partners/tokopedia.png')"></div>
+                    <div class="partner" style="background-image: url('/images/partners/bukalapak.png')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" style="background-image: url('/images/footer/bg.png')">
+        <div class="container mx-auto">
+            <div class="footer__links">
+                <div class="footer-item">
+                    <div class="footer-item__title">
+                        <h5 class="title-5">Information</h5>
+                    </div>
+                    <div class="footer-item__list">
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item__title">
+                        <h5 class="title-5">Product & Service</h5>
+                    </div>
+                    <div class="footer-item__list">
+                        <ul>
+                            <li><a href="#">Shipment</a></li>
+                            <li><a href="#">Cargo</a></li>
+                            <li><a href="#">COD</a></li>
+                            <li><a href="#">Best</a></li>
+                            <li><a href="#">Gokils</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item__title">
+                        <h5 class="title-5">Info Contact</h5>
+                    </div>
+                    <div class="footer-item__list">
+                        <ul>
+                            <li><a href="#">Jl. Ir. H. Juanda 3 No. 17-19,
+                                RT.008/RW.002, Kel. Kebon
+                                Kelapa Kec. Gambir, Jakarta
+                                Pusat 10120</a></li>
+                            <li>
+                                <a href="#">customer.care@zendit.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item__title">
+                        <h5 class="title-5">Download App</h5>
+                    </div>
+                    <div class="footer-item__list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="/images/footer/googleplay.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/images/footer/appstore.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
